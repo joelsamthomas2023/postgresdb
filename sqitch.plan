@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=flipr
+%uri=https://github.com/sqitchers/sqitch-intro/
+
+appschema 2023-01-20T19:19:41Z jthomas <joel.thomas_1@telensa.com> # Add schema for all flipr objects.
