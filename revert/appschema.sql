@@ -3,5 +3,8 @@
 BEGIN;
 
 -- XXX Add DDLs here.
-drop table public.test1;
+drop table public.tab_1;
+drop table public.tab_2;
+drop table public.tab_3;
+
 commit;
