@@ -12,12 +12,12 @@ cREATE OR REPLACE PROCEDURE pr_test_procedure (INOUT msg TEXT)
 
  BEGIN
 
- RAISE NOTICE 'Procedure version-2 %', msg ;
+ RAISE NOTICE 'Procedure version-4 %', msg ;
 
  END ;
 $$
 
 LANGUAGE plpgsql ;
 
-
+commit;
 
