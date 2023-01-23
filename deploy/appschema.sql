@@ -20,4 +20,4 @@ $$
 LANGUAGE plpgsql ;
 
 
-
+commit;
