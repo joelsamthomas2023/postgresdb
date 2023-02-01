@@ -12,7 +12,7 @@ cREATE OR REPLACE PROCEDURE pr_test_procedure (INOUT msg TEXT)
 
  BEGIN
 
- RAISE NOTICE 'Procedure version-5 %', msg ;
+ RAISE NOTICE 'Procedure version-6 %', msg ;
 
  END ;
 $$
