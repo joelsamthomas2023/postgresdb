@@ -12,9 +12,11 @@ cREATE OR REPLACE PROCEDURE pr_test_procedure (INOUT msg TEXT)
 
  BEGIN
 
- RAISE NOTICE 'Procedure version-1 .This procedure has been modified %', msg ;
- RAISE NOTICE 'Procedure version-2 .This procedure has been modified %', msg ;
- RAISE NOTICE 'Procedure version-3 .This procedure has been modified %', msg ;
+
+
+ RAISE NOTICE 'Procedure version-10.7 .This procedure has been modified %', msg ;
+ RAISE NOTICE 'Procedure version-10.7 .This procedure has been modified %', msg ;
+ RAISE NOTICE 'Procedure version-10.7 .This procedure has been modified %', msg ;
  END ;
 $$
 
